@@ -9,6 +9,9 @@ var config = {
         path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js'
     },
+    devServer: {
+        stats: 'errors-only',
+    },
     module: {
         loaders: [{
             test: /\.jsx?$/,
